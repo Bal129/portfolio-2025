@@ -1,0 +1,102 @@
+{
+  "pages": [
+    {
+      "name": "Home",
+      "link": "/"
+    },
+    {
+      "name": "Contacts",
+      "link": "/contacts"
+    }
+  ],
+  "titles": [
+    "Web Developer",
+    "Game Developer",
+    "Software Engineer",
+    "PC Builder",
+    "IT Support"
+  ],
+  "aboutMe": {
+    "picture": "/",
+    "descriptions": [
+      "Hi, my name is Iqbal.",
+      "A Software Engineer Graduate Trainee at Iotra Digital Sdn Bhd, with hands-on experience in web development, game development, software engineering, PC building, and IT support.",
+      "Thank you for taking the time to explore my portfolio. Feel free to reach out using the contact information below."
+    ]
+  },
+  "expertise": [
+    {
+      "title": "Programming Languages",
+      "description": "HTML, CSS, Javascript, Typescript, Go, Java, Python, PHP, PostgreSQL, MySQL, C#, C++"
+    },
+    {
+      "title": "Frameworks and Libraries",
+      "description": "Vue.js, React.js, Phaser, Monogame, Bootstrap"
+    },
+    {
+      "title": "Programming Related Tools",
+      "description": "Vite, Node Package Manager (npm)"
+    },
+    {
+      "title": "Application",
+      "description": "Github Desktop, Unity, Unreal Engine 5, Blender, Krita, Microsoft Office"
+    },
+    {
+      "title": "Hardware Related Skills",
+      "description": "Build, service, and troubleshoot computer, Setting up IoT devices"
+    }
+  ],
+  "workExperience": [
+    {
+      "position": "IoT Software Engineer",
+      "company": "Iotra Digital",
+      "employment": "Graduate Trainee"
+    },
+    {
+      "position": "Front-end Web Developer",
+      "company": "Freelance",
+      "employment": "Freelance"
+    },
+    {
+      "position": "PC Builder & Retail Assistant",
+      "company": "Lucro PC",
+      "employment": "Full time"
+    },
+    {
+      "position": "Technician",
+      "company": "Zikay Synergy",
+      "employment": "Short-term contract"
+    },
+    {
+      "position": "Web Developer",
+      "company": "Pro Office Technology",
+      "employment": "Internship"
+    }
+  ],
+  "contacts": [
+    {
+      "platform": {
+        "name": "Github",
+        "icon": "icon"
+      },
+      "username": "Bal129",
+      "link": "https://github.com/Bal129"
+    },
+    {
+      "platform": {
+        "name": "LinkedIn",
+        "icon": "icon"
+      },
+      "username": "Ahmad Iqbal Che Shamshudin",
+      "link": "www.linkedin.com/in/ahmad-iqbal-che-shamshudin-4053b4249"
+    },
+    {
+      "platform": {
+        "name": "Gmail",
+        "icon": "icon"
+      },
+      "username": "a.iqbalcs129@gmail.com",
+      "link": "mailto:a.iqbalcs129@gmail.com"
+    }
+  ]
+}

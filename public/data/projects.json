@@ -1,0 +1,121 @@
+[
+  {
+    "header": "Front-end Web Development",
+    "samples": [
+      {
+        "name": "Pokedex Website",
+        "link": "https://github.com/Bal129/Jazro-pokedex",
+        "technicalDesc": "HTML, CSS, Javascript, Vue.js",
+        "screenshots": [
+          {
+            "picture": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Forecast Website",
+        "link": "",
+        "technicalDesc": "HTML, CSS, Javascript, Vue.js",
+        "screenshots": [
+          {
+            "picture": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "header": "Back-end Web Development",
+    "samples": [
+      {
+        "name": "Http Listener & Process Monitor Script",
+        "link": "",
+        "technicalDesc": "Go Language",
+        "screenshots": [
+          {
+            "picture": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "FastAPI(?)",
+        "link": "",
+        "technicalDesc": "Python",
+        "screenshots": [
+          {
+            "picture": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "header": "Game Development",
+    "samples": [
+      {
+        "name": "NakFit",
+        "link": "",
+        "technicalDesc": "Unity 2d (C#)",
+        "screenshots": [
+          {
+            "picture": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Blocks",
+        "link": "",
+        "technicalDesc": "Unreal Engine 5 (Blueprint)",
+        "screenshots": [
+          {
+            "picture": "",
+            "description": ""
+          }
+        ]
+      },
+          {
+        "name": "RPG Battle Systems Using Gyroscope",
+        "link": "",
+        "technicalDesc": "Unity 3d (C#)",
+        "screenshots": [
+          {
+            "picture": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "header": "Software Development",
+    "samples": [
+      {
+        "name": "Restaurant Menu System",
+        "link": "",
+        "technicalDesc": "Java",
+        "screenshots": [
+          {
+            "picture": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Vaccination Distribution System",
+        "link": "",
+        "technicalDesc": "Java",
+        "screenshots": [
+          {
+            "picture": "",
+            "description": ""
+          }
+        ]
+      }
+    ] 
+  }
+]

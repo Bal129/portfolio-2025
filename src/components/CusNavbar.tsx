@@ -1,10 +1,16 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 interface NavbarItems {
-  names: string[];
+  name: string;
+  link: string;
 }
 
-function CusNavbar({names}: NavbarItems) {
+interface NavbarProps {
+  items: NavbarItems[];
+}
+
+function CusNavbar({items}: NavbarProps) {
 
   const [activePage, setActivePage] = useState(0);
 
@@ -18,24 +24,24 @@ function CusNavbar({names}: NavbarItems) {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             {
-              names.map((item, index) => (
+              items.map((item, index) => (
                 <li
                   className="nav-item"
-                  key={item}
+                  key={item.name}
                   onClick={() => {
                     setActivePage(index);
                   }}
                 >
-                  <a
+                  <Link 
+                    to={item.link}
                     className={
                       activePage === index
                         ? "nav-link active"
                         : "nav-link"
                     }
-                    href=""
                   >
-                    {item}
-                  </a>
+                    {item.name}
+                  </Link>
                 </li>
               ))
             }
