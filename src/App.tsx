@@ -16,8 +16,8 @@ function App() {
   ]);
 
   return (
-    <div className="d-flex flex-column min-vh-100">
-      <CusNavbar items={navbarItems} />
+    <div className="d-flex flex-column min-vh-100" id="home">
+      <CusNavbar />
       <div className="my-5"></div> {/* Necessary for navbar fixed-top */}
 
       <main className="flex-grow-1">

@@ -1,18 +1,25 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-interface NavbarItems {
+type NavbarItem = {
+  sections: NavbarSection[];
+}
+
+type NavbarSection = {
   name: string;
-  link: string;
+  href: string;
 }
 
-interface NavbarProps {
-  items: NavbarItems[];
-}
-
-function CusNavbar({items}: NavbarProps) {
-
+// function CusNavbar({items}: NavbarProps) {
+function CusNavbar() {
   const [activePage, setActivePage] = useState(0);
+  const [navData, setNavData] = useState<NavbarItem>();
+
+  useEffect(() => {
+    fetch("/data/contents.json")
+      .then(response => response.json())
+      .then(fetchedData => setNavData(fetchedData));
+  }, []);
 
   return (
     <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light">
@@ -24,16 +31,16 @@ function CusNavbar({items}: NavbarProps) {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             {
-              items.map((item, index) => (
+              navData?.sections.map((item, index) => (
                 <li
                   className="nav-item"
-                  key={item.name}
+                  key={item.href}
                   onClick={() => {
                     setActivePage(index);
                   }}
                 >
-                  <Link 
-                    to={item.link}
+                  <a
+                    href={"#"+item.href}
                     className={
                       activePage === index
                         ? "nav-link active"
@@ -41,7 +48,7 @@ function CusNavbar({items}: NavbarProps) {
                     }
                   >
                     {item.name}
-                  </Link>
+                  </a>
                 </li>
               ))
             }

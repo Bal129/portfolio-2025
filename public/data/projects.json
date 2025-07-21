@@ -6,23 +6,15 @@
         "name": "Pokedex Website",
         "link": "https://github.com/Bal129/Jazro-pokedex",
         "technicalDesc": "HTML, CSS, Javascript, Vue.js",
-        "screenshots": [
-          {
-            "picture": "",
-            "description": ""
-          }
-        ]
+        "description": "A simple Pokedex (an encyclopedia for the video game series Pokemon) to practice Vue router and fetching data from an open source RestfulAPI.",
+        "picture": ""
       },
       {
         "name": "Forecast Website",
-        "link": "",
+        "link": null,
         "technicalDesc": "HTML, CSS, Javascript, Vue.js",
-        "screenshots": [
-          {
-            "picture": "",
-            "description": ""
-          }
-        ]
+        "description": "A website to display weather and waves forecast for surfing. I handled the front-end part only. The source code for this project is confidential.",
+        "picture": ""
       }
     ]
   },
@@ -31,25 +23,17 @@
     "samples": [
       {
         "name": "Http Listener & Process Monitor Script",
-        "link": "",
+        "link": null,
         "technicalDesc": "Go Language",
-        "screenshots": [
-          {
-            "picture": "",
-            "description": ""
-          }
-        ]
+        "description": "A lightweight script to listen to webhooks from an IoT network server and a monitoring script that sends email if the listener failed.",
+        "picture": ""
       },
       {
         "name": "FastAPI(?)",
-        "link": "",
+        "link": null,
         "technicalDesc": "Python",
-        "screenshots": [
-          {
-            "picture": "",
-            "description": ""
-          }
-        ]
+        "description": "",
+        "picture": ""
       }
     ]
   },
@@ -58,36 +42,24 @@
     "samples": [
       {
         "name": "NakFit",
-        "link": "",
+        "link": "https://github.com/Bal129/Nakfit",
         "technicalDesc": "Unity 2d (C#)",
-        "screenshots": [
-          {
-            "picture": "",
-            "description": ""
-          }
-        ]
+        "description": "A 2d motion-controlled video game with for Noizucon 2024 convention booth. Players physically squat to move the character using.",
+        "picture": ""
       },
       {
         "name": "Blocks",
-        "link": "",
+        "link": "https://github.com/Bal129/Blocks",
         "technicalDesc": "Unreal Engine 5 (Blueprint)",
-        "screenshots": [
-          {
-            "picture": "",
-            "description": ""
-          }
-        ]
+        "description": "A 3d first-person video game with combination of action and puzzle elements. This project focuses on using Unreal Engine 5 and its physics engine.",
+        "picture": ""
       },
           {
         "name": "RPG Battle Systems Using Gyroscope",
-        "link": "",
+        "link": "https://github.com/Bal129/FYP",
         "technicalDesc": "Unity 3d (C#)",
-        "screenshots": [
-          {
-            "picture": "",
-            "description": ""
-          }
-        ]
+        "description": "My Degree's Final Year Project. A 3d action adventure mobile video game that implements gyroscope inputs from a smartphone device.",
+        "picture": ""
       }
     ]
   },
@@ -96,25 +68,17 @@
     "samples": [
       {
         "name": "Restaurant Menu System",
-        "link": "",
+        "link": "https://github.com/Bal129/Restaurant-menu",
         "technicalDesc": "Java",
-        "screenshots": [
-          {
-            "picture": "",
-            "description": ""
-          }
-        ]
+        "description": "A simple menu system developed to practice Java Swing. This system allows users to browse the menu, add items to a cart, and simulate payments.",
+        "picture": ""
       },
       {
         "name": "Vaccination Distribution System",
-        "link": "",
+        "link": "https://github.com/Bal129/Vaccination-system",
         "technicalDesc": "Java",
-        "screenshots": [
-          {
-            "picture": "",
-            "description": ""
-          }
-        ]
+        "description": "A simulation platform where users, officers, and vaccination centers can sign in and manage vaccination-related processes.",
+        "picture": ""
       }
     ] 
   }

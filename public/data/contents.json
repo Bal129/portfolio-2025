@@ -9,6 +9,32 @@
       "link": "/contacts"
     }
   ],
+  "sections": [
+    {
+      "name": "Home",
+      "href": "home"
+    },
+    {
+      "name": "About Me",
+      "href": "aboutme"
+    },
+    {
+      "name": "Expertise",
+      "href": "expertise"
+    },
+    {
+      "name": "Experience",
+      "href": "experience"
+    },
+    {
+      "name": "Projects",
+      "href": "projects"
+    },
+    {
+      "name": "Contacts",
+      "href": "contacts"
+    }
+  ],
   "titles": [
     "Web Developer",
     "Game Developer",
@@ -71,6 +97,96 @@
       "position": "Web Developer",
       "company": "Pro Office Technology",
       "employment": "Internship"
+    }
+  ],
+  "projects": [
+    {
+      "header": "Front-end Web Development",
+      "samples": [
+      {
+          "name": "Pokedex Website",
+          "link": "https://github.com/Bal129/Jazro-pokedex",
+          "technicalDesc": "HTML, CSS, Javascript, Vue.js, Bootstrap",
+          "description": "A simple Pokedex (an encyclopedia for the video game series Pokemon) to practice Vue router and fetching data from an open source RestfulAPI.",
+          "picture": "/img/samples/pokedex.png"
+        },
+        {
+          "name": "Forecast Website",
+          "link": null,
+          "technicalDesc": "HTML, CSS, Javascript, Vue.js, Bootstrap",
+          "description": "A website to display weather and waves forecast for surfing. I handled the front-end part only. The source code for this project is confidential.",
+          "picture": "/img/samples/forecast.png"
+        }
+      ]
+    },
+    {
+      "header": "Fullstack Web Development",
+      "samples": [
+        {
+          "name": "Data Entry Website",
+          "link": null,
+          "technicalDesc": "HTML, CSS, Javascript, Bootstrap, PHP, SQL",
+          "description": "A website created during my internship for the company's internal data entry system. I created the basic front-end and back-end for the website.",
+          "picture": "/img/samples/data.png"
+        }
+      ]
+    },
+    {
+      "header": "Back-end Development",
+      "samples": [
+        {
+          "name": "Http Listener & Process Monitor Script",
+          "link": null,
+          "technicalDesc": "Go Language",
+          "description": "A lightweight script to listen to webhooks from an IoT network server and another monitoring script that sends email if the listener failed.",
+          "picture": "/img/samples/listener.png"
+        }
+      ]
+    },
+    {
+      "header": "Game Development",
+      "samples": [
+        {
+          "name": "NakFit",
+          "link": "https://github.com/Bal129/Nakfit",
+          "technicalDesc": "Unity 2d (C#)",
+          "description": "A 2d motion-controlled video game with for Noizucon 2024 convention booth. Players physically squat to move the character using.",
+          "picture": "/img/samples/nakfit.png"
+        },
+        {
+          "name": "Blocks",
+          "link": "https://github.com/Bal129/Blocks",
+          "technicalDesc": "Unreal Engine 5 (Blueprint)",
+          "description": "A 3d first-person video game with combination of action and puzzle elements. This project focuses on using Unreal Engine 5 and its physics engine.",
+          "picture": "/img/samples/blocks.png"
+        },
+            {
+          "name": "RPG Battle Systems Using Gyroscope",
+          "link": "https://github.com/Bal129/FYP",
+          "technicalDesc": "Unity 3d (C#)",
+          "description": "My Degree's Final Year Project. A 3d action adventure mobile video game that implements gyroscope inputs from a smartphone device.",
+          "picture": "/img/samples/gyroscope.png"
+        }
+      ]
+    },
+    {
+      "header": "Software Development",
+      "samples": [
+        {
+          "name": "Restaurant Menu System",
+          "link": "https://github.com/Bal129/Restaurant-menu",
+          "technicalDesc": "Java",
+          "description": "A simple menu system developed to practice Java Swing. This system allows users to browse the menu, add items to a cart, and simulate payments.",
+          "picture": "/img/samples/menu.png"
+        },
+        {
+          "name": "Driving School System",
+          "link": "https://github.com/Bal129/Driving-school",
+          "technicalDesc": "Java",
+          "description": "A simulation platform where students and teachers can sign in to manage driving school related processes including setting up schedules.",
+          "picture": "/img/samples/school.png"
+        }
+      ] 
     }
   ],
   "contacts": [

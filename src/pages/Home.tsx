@@ -25,12 +25,8 @@ type ProjectSample = {
   name: string;
   link: string;
   technicalDesc: string;
-  screenshots: ProjectScreenshot[];
-}
-
-type ProjectScreenshot = {
-  picture: string;
   description: string;
+  picture: string;
 }
 
 type Contact = {
@@ -72,6 +68,7 @@ function Home() {
       </div>
 
       {/* About me */}
+      <div className="py-5" id="aboutme"></div>
       <h2 className="text-center py-5">About Me</h2>
       <div>
         {homeData && homeData.aboutMe.descriptions.map((description, index) => (
@@ -80,6 +77,7 @@ function Home() {
       </div>
 
       {/* Expertise */}
+      <div className="py-5" id="expertise"></div>
       <h2 className="text-center py-5">Expertise</h2>
       <div>
         {homeData && homeData.expertise.map((expert, index) => (
@@ -91,6 +89,7 @@ function Home() {
       </div>
 
       {/* Work experience */}
+      <div className="py-5" id="experience"></div>
       <h2 className="text-center p-5">Work Experience</h2>
       <div>
         {homeData && homeData.workExperience.map((work, index) => (
@@ -102,17 +101,28 @@ function Home() {
       </div>
 
       {/* Projects */}
+      <div className="py-5" id="projects"></div>
       <h2 className="text-center p-5">Projects</h2>
       <div>
-        {/* {homeData?.projects?.map((project, index) => (
+        {homeData && homeData.projects.map((project, index) => (
           <div key={index}>
-            <h4>{project.header}</h4>
-            <p>{project.samples[0].name}</p>
+            <h4 className="pb-3">{project.header}</h4>
+            {project.samples.map((sample, row) => (
+              <div key={row} className="pb-5">
+                <h6>{sample.name}</h6>
+                <p>{sample.description}</p>
+                <img 
+                  src={sample.picture}
+                  className="img-fluid"
+                />
+              </div>
+            ))}
           </div>
-        ))} */}
+        ))}
       </div>
 
       {/* Contacts */}
+      <div className="py-5" id="contacts"></div>
       <h2 className="text-center p-5">Contacts</h2>
       <div>
         {homeData && homeData.contacts.map((contact, index) => (
