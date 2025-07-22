@@ -53,136 +53,209 @@
   "expertise": [
     {
       "title": "Programming Languages",
-      "description": "HTML, CSS, Javascript, Typescript, Go, Java, Python, PHP, PostgreSQL, MySQL, C#, C++"
+      "description": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Typescript",
+        "Go",
+        "Java",
+        "Python",
+        "PHP",
+        "PostgreSQL",
+        "MySQL",
+        "C#",
+        "C++"
+      ]
     },
     {
       "title": "Frameworks and Libraries",
-      "description": "Vue.js, React.js, Phaser, Monogame, Bootstrap"
+      "description": [
+        "Vue.js",
+        "React.js",
+        "Phaser",
+        "Monogame",
+        "Bootstrap"
+      ]
     },
     {
       "title": "Programming Related Tools",
-      "description": "Vite, Node Package Manager (npm)"
+      "description": [
+        "Vite",
+        "Node Package Manager (npm)"
+      ]
     },
     {
       "title": "Application",
-      "description": "Github Desktop, Unity, Unreal Engine 5, Blender, Krita, Microsoft Office"
+      "description": [
+        "Github Desktop",
+        "Unity",
+        "Unreal Engine 5",
+        "Blender",
+        "Krita",
+        "Microsoft Office"
+      ]
     },
     {
       "title": "Hardware Related Skills",
-      "description": "Build, service, and troubleshoot computer, Setting up IoT devices"
+      "description": [
+        "Build, service, and troubleshoot computer",
+        "Setting up IoT devices"
+      ]
     }
   ],
-  "workExperience": [
-    {
+  "workExperience": {
+    "current": {
       "position": "IoT Software Engineer",
       "company": "Iotra Digital",
-      "employment": "Graduate Trainee"
+      "employment": "Graduate Trainee",
+      "date": "May 2025 - Present"
     },
-    {
-      "position": "Front-end Web Developer",
-      "company": "Freelance",
-      "employment": "Freelance"
-    },
-    {
-      "position": "PC Builder & Retail Assistant",
-      "company": "Lucro PC",
-      "employment": "Full time"
-    },
-    {
-      "position": "Technician",
-      "company": "Zikay Synergy",
-      "employment": "Short-term contract"
-    },
-    {
-      "position": "Web Developer",
-      "company": "Pro Office Technology",
-      "employment": "Internship"
-    }
-  ],
+    "previous": [
+      {
+        "position": "Front-end Web Developer",
+        "company": "Freelance",
+        "employment": "Freelance",
+        "date": "Mac 2025 - Present"
+      },
+      {
+        "position": "PC Builder & Retail Assistant",
+        "company": "Lucro PC",
+        "employment": "Full time",
+        "date": "May 2024 - Feb 2025"
+      },
+      {
+        "position": "Technician",
+        "company": "Zikay Synergy",
+        "employment": "Short-term contract",
+        "date": "Feb 2024 - Mac 2024"
+      },
+      {
+        "position": "Web Developer",
+        "company": "Pro Office Technology",
+        "employment": "Internship",
+        "date": "Jul 2023 - Oct 2023"
+      }
+    ]
+  },
   "projects": [
     {
-      "header": "Front-end Web Development",
+      "header": "Front-end",
       "samples": [
       {
           "name": "Pokedex Website",
           "link": "https://github.com/Bal129/Jazro-pokedex",
-          "technicalDesc": "HTML, CSS, Javascript, Vue.js, Bootstrap",
+          "technicalDesc": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Vue.js",
+            "Bootstrap"
+          ],
           "description": "A simple Pokedex (an encyclopedia for the video game series Pokemon) to practice Vue router and fetching data from an open source RestfulAPI.",
           "picture": "/img/samples/pokedex.png"
         },
         {
           "name": "Forecast Website",
           "link": null,
-          "technicalDesc": "HTML, CSS, Javascript, Vue.js, Bootstrap",
+          "technicalDesc": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Vue.js",
+            "Bootstrap"
+          ],
           "description": "A website to display weather and waves forecast for surfing. I handled the front-end part only. The source code for this project is confidential.",
           "picture": "/img/samples/forecast.png"
         }
       ]
     },
     {
-      "header": "Fullstack Web Development",
+      "header": "Fullstack",
       "samples": [
         {
           "name": "Data Entry Website",
           "link": null,
-          "technicalDesc": "HTML, CSS, Javascript, Bootstrap, PHP, SQL",
+          "technicalDesc": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Bootstrap",
+            "PHP",
+            "SQL"
+          ],
           "description": "A website created during my internship for the company's internal data entry system. I created the basic front-end and back-end for the website.",
           "picture": "/img/samples/data.png"
         }
       ]
     },
     {
-      "header": "Back-end Development",
+      "header": "Back-end",
       "samples": [
         {
-          "name": "Http Listener & Process Monitor Script",
+          "name": "Http Listener Script",
           "link": null,
-          "technicalDesc": "Go Language",
+          "technicalDesc": [
+            "Go Language"
+          ],
           "description": "A lightweight script to listen to webhooks from an IoT network server and another monitoring script that sends email if the listener failed.",
           "picture": "/img/samples/listener.png"
         }
       ]
     },
     {
-      "header": "Game Development",
+      "header": "Game",
       "samples": [
         {
           "name": "NakFit",
           "link": "https://github.com/Bal129/Nakfit",
-          "technicalDesc": "Unity 2d (C#)",
+          "technicalDesc": [
+            "Unity 2d",
+            "C#"
+          ],
           "description": "A 2d motion-controlled video game with for Noizucon 2024 convention booth. Players physically squat to move the character using.",
           "picture": "/img/samples/nakfit.png"
         },
         {
           "name": "Blocks",
           "link": "https://github.com/Bal129/Blocks",
-          "technicalDesc": "Unreal Engine 5 (Blueprint)",
+          "technicalDesc": [
+            "Unreal Engine 5",
+            "Blueprint"
+          ],
           "description": "A 3d first-person video game with combination of action and puzzle elements. This project focuses on using Unreal Engine 5 and its physics engine.",
           "picture": "/img/samples/blocks.png"
         },
             {
-          "name": "RPG Battle Systems Using Gyroscope",
+          "name": "RPG Gyroscope",
           "link": "https://github.com/Bal129/FYP",
-          "technicalDesc": "Unity 3d (C#)",
+          "technicalDesc": [
+            "Unity 3d",
+            "C#"
+          ],
           "description": "My Degree's Final Year Project. A 3d action adventure mobile video game that implements gyroscope inputs from a smartphone device.",
           "picture": "/img/samples/gyroscope.png"
         }
       ]
     },
     {
-      "header": "Software Development",
+      "header": "Software",
       "samples": [
         {
           "name": "Restaurant Menu System",
           "link": "https://github.com/Bal129/Restaurant-menu",
-          "technicalDesc": "Java",
+          "technicalDesc": [
+            "Java"
+          ],
           "description": "A simple menu system developed to practice Java Swing. This system allows users to browse the menu, add items to a cart, and simulate payments.",
           "picture": "/img/samples/menu.png"
         },
         {
           "name": "Driving School System",
           "link": "https://github.com/Bal129/Driving-school",
-          "technicalDesc": "Java",
+          "technicalDesc": [
+            "Java"
+          ],
           "description": "A simulation platform where students and teachers can sign in to manage driving school related processes including setting up schedules.",
           "picture": "/img/samples/school.png"
         }
@@ -193,7 +266,7 @@
     {
       "platform": {
         "name": "Github",
-        "icon": "icon"
+        "icon": "/img/icons/github.png"
       },
       "username": "Bal129",
       "link": "https://github.com/Bal129"
@@ -201,18 +274,23 @@
     {
       "platform": {
         "name": "LinkedIn",
-        "icon": "icon"
+        "icon": "/img/icons/linkedin.png"
       },
       "username": "Ahmad Iqbal Che Shamshudin",
-      "link": "www.linkedin.com/in/ahmad-iqbal-che-shamshudin-4053b4249"
+      "link": "https://www.linkedin.com/in/ahmad-iqbal-che-shamshudin-4053b4249"
     },
     {
       "platform": {
         "name": "Gmail",
-        "icon": "icon"
+        "icon": "/img/icons/gmail.png"
       },
       "username": "a.iqbalcs129@gmail.com",
       "link": "mailto:a.iqbalcs129@gmail.com"
     }
-  ]
+  ],
+  "iotra": {
+    "icon": "/img/icons/iotra.jpeg",
+    "website": "https://iotra.com.my/"
+  },
+  "landingImage": "/img/photos/header.jpg"
 }
