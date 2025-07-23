@@ -1,6 +1,6 @@
 function CusFooter() {
   return (
-    <footer className="bg-light text-center py-3">
+    <footer className="bg-light text-center p-3">
       <p>
         Thank you for reaching the end of the portfolio. 
         This is website that I created from scratch using React.js.

@@ -35,15 +35,17 @@
       "href": "contacts"
     }
   ],
-  "titles": [
-    "Web Developer",
-    "Game Developer",
-    "Software Engineer",
-    "PC Builder",
-    "IT Support"
-  ],
+  "hero": {
+    "titles": [
+      "Web Developer",
+      "Game Developer",
+      "Software Engineer",
+      "PC Builder",
+      "IT Support"
+    ]
+  }, 
   "aboutMe": {
-    "picture": "/",
+    "picture": "/img/photos/header.jpg",
     "descriptions": [
       "Hi, my name is Iqbal.",
       "A Software Engineer Graduate Trainee at Iotra Digital Sdn Bhd, with hands-on experience in web development, game development, software engineering, PC building, and IT support.",
@@ -109,7 +111,9 @@
       "position": "IoT Software Engineer",
       "company": "Iotra Digital",
       "employment": "Graduate Trainee",
-      "date": "May 2025 - Present"
+      "date": "May 2025 - Present",
+      "icon": "/img/icons/iotra.jpeg",
+      "website": "https://iotra.com.my/"
     },
     "previous": [
       {
@@ -289,8 +293,5 @@
     }
   ],
   "iotra": {
-    "icon": "/img/icons/iotra.jpeg",
-    "website": "https://iotra.com.my/"
-  },
-  "landingImage": "/img/photos/header.jpg"
+  }
 }

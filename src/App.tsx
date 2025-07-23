@@ -1,15 +1,10 @@
 import { useRoutes } from "react-router-dom";
 import CusFooter from "./components/CusFooter";
 import CusNavbar from "./components/CusNavbar";
-import Home from "./pages/Home";
+import Home from "./pages/home/Home";
 import Contacts from "./pages/Contacts";
 
 function App() {
-  const navbarItems = [
-    { name: "Home", link: "/" },
-    { name: "Contacts", link: "/contacts" },
-  ];
-
   const routes = useRoutes([
     { path: "/", element: <Home /> },
     { path: "/contacts", element: <Contacts /> }
