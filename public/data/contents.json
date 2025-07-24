@@ -36,6 +36,11 @@
     }
   ],
   "hero": {
+    "parallax": {
+      "sky": "/img/parallax/sky.png",
+      "mountain": "/img/parallax/mountain-short-2.png",
+      "camp": "/img/parallax/camp.png"
+    },
     "titles": [
       "Web Developer",
       "Game Developer",

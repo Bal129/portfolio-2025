@@ -119,7 +119,7 @@ function AssistMenu() {
       }}
     >
       <button
-        className="c-button btn rounded-pill btn-dark"
+        className="c-main-button rounded-3 px-3 py-2"
         onClick={() => {
           if (!hasMoved) {
             setMenuOpen(!menuOpen)}
@@ -133,11 +133,11 @@ function AssistMenu() {
             navData && navData?.map((item, index) => (
                 <li
                   key={index} 
-                  className="list-group-item"
+                  className="c-container-light c-main-menu list-group-item"
                 >
                   <a 
                     href={"#"+item.href}
-                    className="text-decoration-none"
+                    className="c-text-dark text-decoration-none"
                   >
                     {item.name}
                   </a>

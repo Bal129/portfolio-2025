@@ -22,12 +22,11 @@ function Home() {
       /* Section 1: Landing Page */
       homeData?.hero &&
       <Hero 
+        parallax={homeData.hero.parallax}
         titles={homeData.hero.titles}
       />
     }
     <div className="container">
-
-
       <div className="py-5" id="aboutme"></div>
       {
         /* Section 2: About Me */

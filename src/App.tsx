@@ -15,12 +15,9 @@ function App() {
     <div className="d-flex flex-column min-vh-100" id="home">
       {/* <CusNavbar /> */}
       <AssistMenu />
-      <div className="my-5"></div> {/* Necessary for navbar fixed-top */}
-
-      <main className="flex-grow-1">
-        {routes}
-      </main>
-      
+        <main className="flex-grow-1">
+          {routes}
+        </main>
       <CusFooter />
     </div>
   )

@@ -1,4 +1,11 @@
 :root {
-  --bg-primary: #396e97;
-  --bg-secondary: #354f6d;
+  --bg-primary: #00121d;
+  --bg-secondary: #cdd7e2;
+  --bg-accent: #122e47;
+  --bg-accent-highlight: #bfc224;
+  --text-primary: #37af87;
+  --text-secondary: #166861;
+  --text-body-dark: #082649;
+  --text-body-light: #e5f3f3;
+  --text-accent: #a7c1df;
 }

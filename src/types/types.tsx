@@ -17,7 +17,14 @@ export type TypeHomeData = {
 }
 
 export type TypeHero = {
+  parallax: TypeParallax;
   titles: string[];
+}
+
+export type TypeParallax = {
+  sky: string;
+  mountain: string;
+  camp: string;
 }
 
 export type TypeAboutMe = {

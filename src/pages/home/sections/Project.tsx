@@ -8,8 +8,8 @@ function Project({projects}: PropsProject) {
   return (
     <>
     <br />
-    <h5 className="font-monospace text-center">Section 4</h5>
-    <h1 className="display-1 fw-bold text-center pb-5">Projects</h1>
+    <h5 className="font-monospace c-text-secondary text-center">Section 4</h5>
+    <h1 className="display-1 fw-bold c-text-primary text-center pb-5">Projects</h1>
     <div className="row">
       {projects.map((project, index) => (
         project.samples.map((sample, row) => (
@@ -19,28 +19,32 @@ function Project({projects}: PropsProject) {
                 src={sample.picture}
                 className="card-img-top img-fluid"
               />
-              <div className="card-body p-4 bg-light">
-                <h5 className="card-title d-flex align-items-center gap-3">
+              <div className="card-body p-4 c-container-light">
+                <h5 className="card-title c-text-dark d-flex align-items-center gap-3">
                   {sample.name}
-                  <span className="badge text-light bg-dark">{project.header}</span>
-                  <a href={sample.link} target="_blank"  title={"Go to: " + sample.link}>
-                    <img 
-                      src="/img/icons/github.png" 
-                      style={{width: '30px', height: '30px'}}
-                    />
-                  </a>
+                  <span className="badge c-badge-highlight-color">{project.header}</span>
+                  {sample.link && (
+                    <a href={sample.link} target="_blank"  title={"Go to: " + sample.link}>
+                      <img 
+                        src="/img/icons/github.png" 
+                        style={{width: '30px', height: '30px'}}
+                        className="c-container-light c-main-button rounded-pill"
+                      />
+                    </a>
+                  )}
+
                 </h5>
                 <div className="d-flex flex-wrap flex-row mb-2">
                   {sample.technicalDesc.map((item, row) => (
                     <span 
                       key={row} 
-                      className="small border rounded-4 px-3 py-1 text-light bg-dark"
+                      className="badge c-badge-color px-2 py-1 m-1"
                     >
                       {item}
                     </span>
                   ))}
                 </div>
-                <p className="card-text">{sample.description}</p>
+                <p className="c-text-dark card-text">{sample.description}</p>
               </div>
             </div>
           </div>
