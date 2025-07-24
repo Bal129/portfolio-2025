@@ -3,7 +3,7 @@ import type { TypeHero } from "../../../types/types";
 function Hero({titles}: TypeHero) {
   return (
     <>
-    <div className="text-center p-5">
+    <div className="c-hero-banner text-center">
       {titles.map((title, index) => (
         <h1 key={index}>{title}</h1>
       ))}

@@ -1,3 +1,12 @@
+export type TypeNavbarData = {
+  sections: TypeNavbarSection[];
+}
+
+export type TypeNavbarSection = {
+  name: string;
+  href: string;
+}
+
 export type TypeHomeData = {
   hero :TypeHero;
   aboutMe: TypeAboutMe;

@@ -7,12 +7,14 @@ type PropsProject = {
 function Project({projects}: PropsProject) {
   return (
     <>
-    <h1 className="text-center p-5">Projects</h1>
+    <br />
+    <h5 className="font-monospace text-center">Section 4</h5>
+    <h1 className="display-1 fw-bold text-center pb-5">Projects</h1>
     <div className="row">
       {projects.map((project, index) => (
         project.samples.map((sample, row) => (
           <div key={`${index}-${row}`} className="col-sm-12 col-md-6 col-lg-4 mb-4">
-            <div className="card m-2">
+            <div className="font-monospace card m-2">
               <img 
                 src={sample.picture}
                 className="card-img-top img-fluid"

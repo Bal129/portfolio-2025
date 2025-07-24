@@ -3,6 +3,7 @@ import CusFooter from "./components/CusFooter";
 import CusNavbar from "./components/CusNavbar";
 import Home from "./pages/home/Home";
 import Contacts from "./pages/Contacts";
+import AssistMenu from "./components/assistMenu/AssistMenu";
 
 function App() {
   const routes = useRoutes([
@@ -12,7 +13,8 @@ function App() {
 
   return (
     <div className="d-flex flex-column min-vh-100" id="home">
-      <CusNavbar />
+      {/* <CusNavbar /> */}
+      <AssistMenu />
       <div className="my-5"></div> {/* Necessary for navbar fixed-top */}
 
       <main className="flex-grow-1">

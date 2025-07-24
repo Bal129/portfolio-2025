@@ -17,14 +17,16 @@ function Home() {
   }, []);
 
   return (
+    <>
+    {
+      /* Section 1: Landing Page */
+      homeData?.hero &&
+      <Hero 
+        titles={homeData.hero.titles}
+      />
+    }
     <div className="container">
-      {
-        /* Section 1: Landing Page */
-        homeData?.hero &&
-        <Hero 
-          titles={homeData.hero.titles}
-        />
-      }
+
 
       <div className="py-5" id="aboutme"></div>
       {
@@ -75,6 +77,7 @@ function Home() {
       
       <div className="py-5"></div> {/* Spacer */}
     </div>
+    </>
   )
 }
 

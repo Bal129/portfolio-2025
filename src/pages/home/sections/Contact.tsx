@@ -7,10 +7,11 @@ type PropsContact = {
 function Contact({contacts}:PropsContact) {
   return (
     <>
-    <h1 className="text-center p-5">Contacts</h1>
+    <h5 className="font-monospace text-center">Section 5</h5>
+    <h1 className="display-1 fw-bold text-center pb-5">Contacts</h1>
     <div className="d-flex flex-wrap flex-row gap-3 justify-content-md-center">
       {contacts.map((contact, index) => (
-        <div key={index} className="d-flex gap-3 m-3">
+        <div key={index} className="font-monospace text-light d-flex gap-3 m-3">
           <a href={contact.link} target="_blank" className="text-decoration-none">
             <img 
               src={contact.platform.icon}

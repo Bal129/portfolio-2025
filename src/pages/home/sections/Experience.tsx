@@ -3,11 +3,16 @@ import type { TypeWorkExperience } from "../../../types/types";
 function Experience({current, previous}: TypeWorkExperience) {
   return (
     <>
-    <h1 className="text-center p-5">Work Experience</h1>
-    <div className="row border rounded-2 text-dark bg-light p-3 m-1">
+    <br />
+    <h5 className="font-monospace text-center">Section 3</h5>
+    <h1 className="display-1 fw-bold text-center pb-5">Work Experience</h1>
+    <div className="font-monospace row border rounded-2 text-dark bg-light p-3 m-1">
       <div className="col-3">
         <a href={current.website} target="_blank" style={{textDecoration: "none"}}>
-          <img src={current.icon} className="rounded-3 img-fluid"/>
+          <img 
+            src={current.icon}
+            className="border border-2 border-dark rounded-3 img-fluid"
+          />
           <p className="text-center">{current.company}</p>
         </a>
       </div>
@@ -23,7 +28,7 @@ function Experience({current, previous}: TypeWorkExperience) {
       </div>
     </div>
     <br />
-    <div className="m-1">
+    <div className="font-monospace text-light m-1">
       {previous?.map((work, index) => (
         <div key={index} className="row m-3">
           <div className="col-3 col-md-2 text-muted small">
