@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from "react";
-import type { TypeNavbarSection } from "../../types/types";
+import type { TypeNavbarSection } from "../types/types";
+import ThemeToggle from "./ThemeToggle";
 // import './assistMenu.css';
-import '../../styles/color.css';
 
 function AssistMenu() {
-  const [position, setPosition] = useState({x: 50, y: 50});
+  const [position, setPosition] = useState({x: 20, y: 20});
   const [isDragging, setIsDragging] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [hasMoved, setHasMoved] = useState(false);
@@ -118,14 +118,15 @@ function AssistMenu() {
         zIndex: "9999"
       }}
     >
+      <ThemeToggle />
       <button
-        className="c-main-button rounded-3 px-3 py-2"
+        className="c-main-button rounded-end px-3 py-2"
         onClick={() => {
-          if (!hasMoved) {
-            setMenuOpen(!menuOpen)}
-          }}
+        if (!hasMoved) {
+          setMenuOpen(!menuOpen)}
+        }}
       >
-        Menu
+        <span className="font-monospace">Menu</span>
       </button>
       <div className="my-1">
         <ul className="list-group">
@@ -137,7 +138,7 @@ function AssistMenu() {
                 >
                   <a 
                     href={"#"+item.href}
-                    className="c-text-dark text-decoration-none"
+                    className="c-text-1 text-decoration-none"
                   >
                     {item.name}
                   </a>

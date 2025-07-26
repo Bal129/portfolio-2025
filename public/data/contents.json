@@ -38,8 +38,9 @@
   "hero": {
     "parallax": {
       "sky": "/img/parallax/sky.png",
-      "mountain": "/img/parallax/mountain-short-2.png",
-      "camp": "/img/parallax/camp.png"
+      "mountain": "/img/parallax/mountain.png",
+      "trees": "/img/parallax/trees.png",
+      "camp": "/img/parallax/land.png"
     },
     "titles": [
       "Web Developer",
@@ -154,6 +155,7 @@
       {
           "name": "Pokedex Website",
           "link": "https://github.com/Bal129/Jazro-pokedex",
+          "page": "https://bal129.github.io/Jazro-pokedex/",
           "technicalDesc": [
             "HTML",
             "CSS",
@@ -167,6 +169,7 @@
         {
           "name": "Forecast Website",
           "link": null,
+          "page": null,
           "technicalDesc": [
             "HTML",
             "CSS",
@@ -185,6 +188,7 @@
         {
           "name": "Data Entry Website",
           "link": null,
+          "page": null,
           "technicalDesc": [
             "HTML",
             "CSS",
@@ -204,6 +208,7 @@
         {
           "name": "Http Listener Script",
           "link": null,
+          "page": null,
           "technicalDesc": [
             "Go Language"
           ],
@@ -218,6 +223,7 @@
         {
           "name": "NakFit",
           "link": "https://github.com/Bal129/Nakfit",
+          "page": null,
           "technicalDesc": [
             "Unity 2d",
             "C#"
@@ -228,6 +234,7 @@
         {
           "name": "Blocks",
           "link": "https://github.com/Bal129/Blocks",
+          "page": null,
           "technicalDesc": [
             "Unreal Engine 5",
             "Blueprint"
@@ -238,6 +245,7 @@
             {
           "name": "RPG Gyroscope",
           "link": "https://github.com/Bal129/FYP",
+          "page": null,
           "technicalDesc": [
             "Unity 3d",
             "C#"
@@ -253,6 +261,7 @@
         {
           "name": "Restaurant Menu System",
           "link": "https://github.com/Bal129/Restaurant-menu",
+          "page": null,
           "technicalDesc": [
             "Java"
           ],
@@ -262,6 +271,7 @@
         {
           "name": "Driving School System",
           "link": "https://github.com/Bal129/Driving-school",
+          "page": null,
           "technicalDesc": [
             "Java"
           ],

@@ -11,7 +11,7 @@ function Expertise({expertise}: PropsExpertise) {
     <h1 className="display-1 fw-bold c-text-primary text-center pb-5">Expertise</h1>
     {expertise.map((row, index) => (
       <div key={index}>
-        <h3 className="font-monospace c-text-light">{row.title}</h3>
+        <h3 className="font-monospace c-text-2">{row.title}</h3>
         <div className="d-flex flex-wrap flex-row mb-3">
           {row.description.map((item, index2) => (
             <span 

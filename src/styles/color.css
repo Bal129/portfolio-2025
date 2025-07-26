@@ -1,11 +1,83 @@
-:root {
+:root[data-theme="dark"] {
   --bg-primary: #00121d;
   --bg-secondary: #cdd7e2;
   --bg-accent: #122e47;
   --bg-accent-highlight: #bfc224;
   --text-primary: #37af87;
   --text-secondary: #166861;
-  --text-body-dark: #082649;
-  --text-body-light: #e5f3f3;
+  --text-body-1: #082649;
+  --text-body-2: #e5f3f3;
   --text-accent: #a7c1df;
+  --landing-img-h: url("/img/landing-pic/nightsky-h.png");
+  --landing-img-v: url("/img/landing-pic/nightsky-v.png");
+  --landing-img-b: url("/img/landing-pic/nightsky-b.png");
+}
+
+:root[data-theme="light"] {
+  --bg-primary: #faf3f1;
+  --bg-secondary: #e2cec1;
+  --bg-accent: #e9b348;
+  --bg-accent-highlight: #ff4c4c;
+  --text-primary: #c23e01;
+  --text-secondary: #d44908;
+  --text-body-1: #5a3b03;
+  --text-body-2: #2e0601;
+  --text-accent: #745604;
+  --landing-img-h: url("/img/landing-pic/daysky-h.png");
+  --landing-img-v: url("/img/landing-pic/daysky-v.png");
+  --landing-img-b: url("/img/landing-pic/daysky-b.png");
+}
+
+/* Theme 1 */
+
+.c-body {
+  background-color: var(--bg-primary) !important;
+}
+
+.c-text-primary {
+  color: var(--text-primary);
+}
+
+.c-text-secondary {
+  color: var(--text-secondary);
+}
+
+.c-text-1 {
+  color: var(--text-body-1);
+}
+
+.c-text-2 {
+  color: var(--text-body-2);
+}
+
+.c-badge-color {
+  color: var(--text-accent);
+  background-color: var(--bg-accent);
+}
+
+.c-badge-highlight-color {
+  color: var(--text-body-1);
+  background-color: var(--bg-accent-highlight);
+}
+
+.c-main-button {
+  color: var(--text-accent);
+  background-color: var(--bg-accent);
+  border: none;
+}
+
+.c-main-button:hover {
+  color: var(--text-body-1);
+  background-color: var(--bg-accent-highlight);
+  transform: scale(1.1);
+}
+
+.c-main-menu:hover {
+  color: var(--text-body-1);
+  background-color: var(--bg-accent-highlight);
+  transform: scale(1.1);
+}
+
+.c-container-light {
+  background-color: var(--bg-secondary);
 }

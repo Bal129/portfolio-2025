@@ -1,54 +1,31 @@
-body {
-  background-color: var(--bg-primary);
-}
-
-.c-text-primary {
-  color: var(--text-primary);
-}
-
-.c-text-secondary {
-  color: var(--text-secondary);
-}
-
-.c-text-dark {
-  color: var(--text-body-dark);
-}
-
-.c-text-light {
-  color: var(--text-body-light);
-}
-
-.c-badge-color {
-  color: var(--text-accent);
-  background-color: var(--bg-accent);
-}
-
-.c-badge-highlight-color {
-  color: var(--text-body-dark);
-  background-color: var(--bg-accent-highlight);
-}
-
-.c-main-button {
-  color: var(--text-accent);
-  background-color: var(--bg-accent);
-  border: none;
-}
-
-.c-main-button:hover {
-  color: var(--text-body-dark);
-  background-color: var(--bg-accent-highlight);
-  transform: scale(1.1);
-}
-
-.c-main-menu:hover {
-  color: var(--text-body-dark);
-  background-color: var(--bg-accent-highlight);
-  transform: scale(1.1);
-}
-
 .c-hero-banner {
   width: 100%;
   height: 100vh;
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+}
+
+.c-hero-header {
+  width: 100%;
+  height: 100vh;
+}
+
+.landscape {
+  background-image: var(--landing-img-h);
+}
+
+.portrait {
+  background-image: var(--landing-img-v);
+}
+
+.banner-bottom {
+  background-image: var(--landing-img-b);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .c-hero-parallax > div {
@@ -62,11 +39,6 @@ body {
 }
 
 .c-hero-parallax-image {
-  max-width: 70vw;
+  width: auto;
   max-height: auto;
 }
-
-.c-container-light {
-  background-color: var(--bg-secondary);
-}
-

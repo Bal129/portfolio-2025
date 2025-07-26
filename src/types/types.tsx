@@ -24,6 +24,7 @@ export type TypeHero = {
 export type TypeParallax = {
   sky: string;
   mountain: string;
+  trees: string;
   camp: string;
 }
 
@@ -59,6 +60,7 @@ export type TypeProject = {
 export type TypeProjectSample = {
   name: string;
   link: string;
+  page: string;
   technicalDesc: string[];
   description: string;
   picture: string;
