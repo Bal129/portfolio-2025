@@ -7,7 +7,6 @@ type PropsContact = {
 function Contact({contacts}:PropsContact) {
   return (
     <>
-    <h5 className="font-monospace c-text-secondary text-center">Section 5</h5>
     <h1 className="display-1 fw-bold c-text-primary text-center pb-5">Contacts</h1>
     <div className="d-flex flex-wrap flex-row gap-3 justify-content-md-center">
       {contacts.map((contact, index) => (

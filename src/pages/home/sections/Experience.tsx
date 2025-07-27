@@ -3,11 +3,15 @@ import type { TypeWorkExperience } from "../../../types/types";
 function Experience({current, previous}: TypeWorkExperience) {
   return (
     <>
-    <h5 className="font-monospace c-text-secondary text-center">Section 3</h5>
     <h1 className="display-1 fw-bold c-text-primary text-center pb-5">Work Experience</h1>
-    <div className="font-monospace row c-container-light rounded-4 p-3 m-1">
-      <div className="col-3 c-container-light c-main-button rounded-3">
-        <a href={current.website} target="_blank" style={{textDecoration: "none"}}>
+    <div className="font-monospace row c-container-light rounded-4 p-3 m-1 shadow">
+      <div className="col-3 c-container-light c-main-button rounded-3 m-2">
+        <a 
+          href={current.website} 
+          target="_blank"
+          style={{textDecoration: "none"}}
+          className="d-flex flex-column justify-content-center align-items-center m-2"
+        >
           <img 
             src={current.icon}
             className="border border-2 border-dark rounded-3 img-fluid"

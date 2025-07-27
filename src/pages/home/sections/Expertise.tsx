@@ -7,8 +7,7 @@ type PropsExpertise = {
 function Expertise({expertise}: PropsExpertise) {
   return (
     <>
-    <h5 className="font-monospace c-text-secondary text-center">Section 2</h5>
-    <h1 className="display-1 fw-bold c-text-primary text-center pb-5">Expertise</h1>
+    <h1 className="display-1 fw-bold c-text-primary text-center pb-5">What I can do</h1>
     {expertise.map((row, index) => (
       <div key={index}>
         <h3 className="font-monospace c-text-2">{row.title}</h3>

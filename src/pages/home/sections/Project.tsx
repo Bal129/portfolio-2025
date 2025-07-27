@@ -9,17 +9,18 @@ type PropsProject = {
 function Project({projects}: PropsProject) {
   return (
     <>
-    <h5 className="font-monospace c-text-secondary text-center">Section 4</h5>
-    <h1 className="display-1 fw-bold c-text-primary text-center pb-5">Projects</h1>
+    <h1 className="display-1 fw-bold c-text-primary text-center pb-5">My Past Projects</h1>
     <div className="row">
       {projects.map((project, index) => (
         project.samples.map((sample, row) => (
           <div key={`${index}-${row}`} className="col-sm-12 col-md-6 col-lg-4 mb-4">
-            <div className="font-monospace card m-2">
-              <img 
-                src={sample.picture}
-                className="card-img-top img-fluid"
-              />
+            <div className="font-monospace card m-2 shadow">
+              <div className="c-project-img">
+                <img 
+                  src={sample.picture}
+                  className="card-img-top img-fluid"
+                />
+              </div>
               <div className="card-body p-4 c-container-light">
                 <h5 className="card-title c-text-1 d-flex align-items-center gap-3">
                   {sample.name}

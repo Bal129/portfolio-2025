@@ -11,6 +11,10 @@
   --landing-img-h: url("/img/landing-pic/nightsky-h.png");
   --landing-img-v: url("/img/landing-pic/nightsky-v.png");
   --landing-img-b: url("/img/landing-pic/nightsky-b.png");
+  --parallax-land-h: url("/img/parallax/nightsky-land-h.png");
+  --parallax-land-v: url("/img/parallax/nightsky-land-v.png");
+  --parallax-bg-h: url("/img/parallax/nightsky-bg-h.png");
+  --parallax-bg-v: url("/img/parallax/nightsky-bg-v.png");
 }
 
 :root[data-theme="light"] {
