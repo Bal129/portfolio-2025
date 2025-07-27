@@ -1,69 +1,47 @@
-# React + TypeScript + Vite
+# Welcome to my portfolio website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a website to showcase my resume and past projects.
 
-Currently, two official plugins are available:
+## Published Page
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can view the published page [here](https://bal129.github.io/portfolio-2025/).
 
-## Expanding the ESLint configuration
+## Contents
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+This website contains information of:
+1. About me
+2. Expertise
+3. Work Experience
+4. Projects
+5. Contacts
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Projects
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+| Project | Description | Link to Repo |
+| --- | --- | --- |
+| Pokedex Website | Web (Frontend) | [Link](https://github.com/Bal129/Jazro-pokedex) |
+| Forecast Website | Web (Frontend) | n/a |
+| Data Entry Website | Web (Full-stack) | n/a |
+| Http Listener | Web (Back-end) | n/a |
+| NakFit | Game | [Link](https://github.com/Bal129/Nakfit) |
+| Blocks | Game | [Link](https://github.com/Bal129/Blocks) |
+| Gyroscope RPG | Game | [Link](https://github.com/Bal129/FYP) |
+| Restaurant Menu System | Software | [Link](https://github.com/Bal129/Restaurant-menu) |
+| Driving School System | Software | [Link](https://github.com/Bal129/Driving-school) |
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Development Version
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+If you find this portfolio interesting and wanted to use this to create your own portfolio. You can run the development version of this project on your local PC as well!
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Prerequisites
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1. Get the copy of the source code.
+2. Install [Node Package Manager (npm)](https://nodejs.org/en/download).
+
+### Installation
+
+1. Open cmd and go to the project's directory.
+   > cd "/path/to/your/file"
+2. Run the following command (requires npm).
+   > npm run dev
+3. Click / copy the localhost link.
