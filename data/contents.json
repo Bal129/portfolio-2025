@@ -1,0 +1,312 @@
+{
+  "pages": [
+    {
+      "name": "Home",
+      "link": "/"
+    },
+    {
+      "name": "Contacts",
+      "link": "/contacts"
+    }
+  ],
+  "sections": [
+    {
+      "name": "Home",
+      "href": "home"
+    },
+    {
+      "name": "About Me",
+      "href": "aboutme"
+    },
+    {
+      "name": "Expertise",
+      "href": "expertise"
+    },
+    {
+      "name": "Experience",
+      "href": "experience"
+    },
+    {
+      "name": "Projects",
+      "href": "projects"
+    },
+    {
+      "name": "Contacts",
+      "href": "contacts"
+    }
+  ],
+  "hero": {
+    "parallax": {
+      "sky": "/img/parallax/sky.png",
+      "mountain": "/img/parallax/mountain.png",
+      "trees": "/img/parallax/trees.png",
+      "camp": "/img/parallax/land.png"
+    },
+    "titles": [
+      "Web Developer",
+      "Game Developer",
+      "Software Engineer",
+      "PC Builder",
+      "IT Support"
+    ]
+  }, 
+  "aboutMe": {
+    "picture": "/img/photos/header.jpg",
+    "descriptions": [
+      "Hi, my name is Iqbal.",
+      "A Software Engineer Graduate Trainee at Iotra Digital Sdn Bhd, with hands-on experience in web development, game development, software engineering, PC building, and IT support.",
+      "Thank you for taking the time to explore my portfolio. Feel free to reach out using the contact information below."
+    ]
+  },
+  "expertise": [
+    {
+      "title": "Programming Languages",
+      "description": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Typescript",
+        "Go",
+        "Java",
+        "Python",
+        "PHP",
+        "PostgreSQL",
+        "MySQL",
+        "C#",
+        "C++"
+      ]
+    },
+    {
+      "title": "Frameworks and Libraries",
+      "description": [
+        "Vue.js",
+        "React.js",
+        "Phaser",
+        "Monogame",
+        "Bootstrap"
+      ]
+    },
+    {
+      "title": "Programming Related Tools",
+      "description": [
+        "Vite",
+        "Node Package Manager (npm)"
+      ]
+    },
+    {
+      "title": "Application",
+      "description": [
+        "Github Desktop",
+        "Unity",
+        "Unreal Engine 5",
+        "Blender",
+        "Krita",
+        "Microsoft Office"
+      ]
+    },
+    {
+      "title": "Hardware Related Skills",
+      "description": [
+        "Build, service, and troubleshoot computer",
+        "Setting up IoT devices"
+      ]
+    }
+  ],
+  "workExperience": {
+    "current": {
+      "position": "IoT Software Engineer",
+      "company": "Iotra Digital",
+      "employment": "Graduate Trainee",
+      "date": "May 2025 - Present",
+      "icon": "/img/icons/iotra.jpeg",
+      "website": "https://iotra.com.my/"
+    },
+    "previous": [
+      {
+        "position": "Front-end Web Developer",
+        "company": "Freelance",
+        "employment": "Freelance",
+        "date": "Mac 2025 - Present"
+      },
+      {
+        "position": "PC Builder & Retail Assistant",
+        "company": "Lucro PC",
+        "employment": "Full time",
+        "date": "May 2024 - Feb 2025"
+      },
+      {
+        "position": "Technician",
+        "company": "Zikay Synergy",
+        "employment": "Short-term contract",
+        "date": "Feb 2024 - Mac 2024"
+      },
+      {
+        "position": "Web Developer",
+        "company": "Pro Office Technology",
+        "employment": "Internship",
+        "date": "Jul 2023 - Oct 2023"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "header": "Front-end",
+      "samples": [
+      {
+          "name": "Pokedex Website",
+          "link": "https://github.com/Bal129/Jazro-pokedex",
+          "page": "https://bal129.github.io/Jazro-pokedex/",
+          "technicalDesc": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Vue.js",
+            "Bootstrap"
+          ],
+          "description": "A simple Pokedex (an encyclopedia for the video game series Pokemon) to practice Vue router and fetching data from an open source RestfulAPI.",
+          "picture": "/img/samples/pokedex.png"
+        },
+        {
+          "name": "Forecast Website",
+          "link": null,
+          "page": null,
+          "technicalDesc": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Vue.js",
+            "Bootstrap"
+          ],
+          "description": "A website to display weather and waves forecast for surfing. I handled the front-end part only. The source code for this project is confidential.",
+          "picture": "/img/samples/forecast.png"
+        }
+      ]
+    },
+    {
+      "header": "Fullstack",
+      "samples": [
+        {
+          "name": "Data Entry Website",
+          "link": null,
+          "page": null,
+          "technicalDesc": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Bootstrap",
+            "PHP",
+            "SQL"
+          ],
+          "description": "A website created during my internship for the company's internal data entry system. I created the basic front-end and back-end for the website.",
+          "picture": "/img/samples/data.png"
+        }
+      ]
+    },
+    {
+      "header": "Back-end",
+      "samples": [
+        {
+          "name": "Http Listener Script",
+          "link": null,
+          "page": null,
+          "technicalDesc": [
+            "Go Language"
+          ],
+          "description": "A lightweight script to listen to webhooks from an IoT network server and another monitoring script that sends email if the listener failed.",
+          "picture": "/img/samples/listener.png"
+        }
+      ]
+    },
+    {
+      "header": "Game",
+      "samples": [
+        {
+          "name": "NakFit",
+          "link": "https://github.com/Bal129/Nakfit",
+          "page": null,
+          "technicalDesc": [
+            "Unity 2d",
+            "C#"
+          ],
+          "description": "A 2d motion-controlled video game with for Noizucon 2024 convention booth. Players physically squat to move the character using.",
+          "picture": "/img/samples/nakfit.png"
+        },
+        {
+          "name": "Blocks",
+          "link": "https://github.com/Bal129/Blocks",
+          "page": null,
+          "technicalDesc": [
+            "Unreal Engine 5",
+            "Blueprint"
+          ],
+          "description": "A 3d first-person video game with combination of action and puzzle elements. This project focuses on using Unreal Engine 5 and its physics engine.",
+          "picture": "/img/samples/blocks.png"
+        },
+            {
+          "name": "RPG Gyroscope",
+          "link": "https://github.com/Bal129/FYP",
+          "page": null,
+          "technicalDesc": [
+            "Unity 3d",
+            "C#"
+          ],
+          "description": "My Degree's Final Year Project. A 3d action adventure mobile video game that implements gyroscope inputs from a smartphone device.",
+          "picture": "/img/samples/gyroscope.png"
+        }
+      ]
+    },
+    {
+      "header": "Software",
+      "samples": [
+        {
+          "name": "Restaurant Menu System",
+          "link": "https://github.com/Bal129/Restaurant-menu",
+          "page": null,
+          "technicalDesc": [
+            "Java"
+          ],
+          "description": "A simple menu system developed to practice Java Swing. This system allows users to browse the menu, add items to a cart, and simulate payments.",
+          "picture": "/img/samples/menu.png"
+        },
+        {
+          "name": "Driving School System",
+          "link": "https://github.com/Bal129/Driving-school",
+          "page": null,
+          "technicalDesc": [
+            "Java"
+          ],
+          "description": "A simulation platform where students and teachers can sign in to manage driving school related processes including setting up schedules.",
+          "picture": "/img/samples/school.png"
+        }
+      ] 
+    }
+  ],
+  "contacts": [
+    {
+      "platform": {
+        "name": "Github",
+        "icon": "/img/icons/github.png"
+      },
+      "username": "Bal129",
+      "link": "https://github.com/Bal129"
+    },
+    {
+      "platform": {
+        "name": "LinkedIn",
+        "icon": "/img/icons/linkedin.png"
+      },
+      "username": "Ahmad Iqbal Che Shamshudin",
+      "link": "https://www.linkedin.com/in/ahmad-iqbal-che-shamshudin-4053b4249"
+    },
+    {
+      "platform": {
+        "name": "Gmail",
+        "icon": "/img/icons/gmail.png"
+      },
+      "username": "a.iqbalcs129@gmail.com",
+      "link": "mailto:a.iqbalcs129@gmail.com"
+    }
+  ],
+  "iotra": {
+  }
+}

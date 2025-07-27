@@ -1,0 +1,85 @@
+[
+  {
+    "header": "Front-end Web Development",
+    "samples": [
+      {
+        "name": "Pokedex Website",
+        "link": "https://github.com/Bal129/Jazro-pokedex",
+        "technicalDesc": "HTML, CSS, Javascript, Vue.js",
+        "description": "A simple Pokedex (an encyclopedia for the video game series Pokemon) to practice Vue router and fetching data from an open source RestfulAPI.",
+        "picture": ""
+      },
+      {
+        "name": "Forecast Website",
+        "link": null,
+        "technicalDesc": "HTML, CSS, Javascript, Vue.js",
+        "description": "A website to display weather and waves forecast for surfing. I handled the front-end part only. The source code for this project is confidential.",
+        "picture": ""
+      }
+    ]
+  },
+  {
+    "header": "Back-end Web Development",
+    "samples": [
+      {
+        "name": "Http Listener & Process Monitor Script",
+        "link": null,
+        "technicalDesc": "Go Language",
+        "description": "A lightweight script to listen to webhooks from an IoT network server and a monitoring script that sends email if the listener failed.",
+        "picture": ""
+      },
+      {
+        "name": "FastAPI(?)",
+        "link": null,
+        "technicalDesc": "Python",
+        "description": "",
+        "picture": ""
+      }
+    ]
+  },
+  {
+    "header": "Game Development",
+    "samples": [
+      {
+        "name": "NakFit",
+        "link": "https://github.com/Bal129/Nakfit",
+        "technicalDesc": "Unity 2d (C#)",
+        "description": "A 2d motion-controlled video game with for Noizucon 2024 convention booth. Players physically squat to move the character using.",
+        "picture": ""
+      },
+      {
+        "name": "Blocks",
+        "link": "https://github.com/Bal129/Blocks",
+        "technicalDesc": "Unreal Engine 5 (Blueprint)",
+        "description": "A 3d first-person video game with combination of action and puzzle elements. This project focuses on using Unreal Engine 5 and its physics engine.",
+        "picture": ""
+      },
+          {
+        "name": "RPG Battle Systems Using Gyroscope",
+        "link": "https://github.com/Bal129/FYP",
+        "technicalDesc": "Unity 3d (C#)",
+        "description": "My Degree's Final Year Project. A 3d action adventure mobile video game that implements gyroscope inputs from a smartphone device.",
+        "picture": ""
+      }
+    ]
+  },
+  {
+    "header": "Software Development",
+    "samples": [
+      {
+        "name": "Restaurant Menu System",
+        "link": "https://github.com/Bal129/Restaurant-menu",
+        "technicalDesc": "Java",
+        "description": "A simple menu system developed to practice Java Swing. This system allows users to browse the menu, add items to a cart, and simulate payments.",
+        "picture": ""
+      },
+      {
+        "name": "Vaccination Distribution System",
+        "link": "https://github.com/Bal129/Vaccination-system",
+        "technicalDesc": "Java",
+        "description": "A simulation platform where users, officers, and vaccination centers can sign in and manage vaccination-related processes.",
+        "picture": ""
+      }
+    ] 
+  }
+]
