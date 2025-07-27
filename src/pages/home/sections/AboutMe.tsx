@@ -1,6 +1,6 @@
 import type { TypeAboutMe } from "../../../types/types";
 
-function AboutMe({descriptions, picture}: TypeAboutMe) {
+function AboutMe({descriptions}: TypeAboutMe) {
   return (
   <>
   <div 

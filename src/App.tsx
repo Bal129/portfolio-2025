@@ -1,10 +1,8 @@
 import { useRoutes } from "react-router-dom";
 import CusFooter from "./components/CusFooter";
-import CusNavbar from "./components/CusNavbar";
 import Home from "./pages/home/Home";
 import Contacts from "./pages/Contacts";
 import AssistMenu from "./components/AssistMenu";
-import ThemeToggle from "./components/ThemeToggle";
 
 function App() {
   const routes = useRoutes([

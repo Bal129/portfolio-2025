@@ -6,7 +6,6 @@ import Experience from "./sections/Experience";
 import Project from "./sections/Project";
 import Contact from "./sections/Contact";
 import Hero from "./sections/Hero";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 function Home() {
   const [homeData, setHomeData] = useState<TypeHomeData>();
