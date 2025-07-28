@@ -11,7 +11,7 @@ function Home() {
   const [homeData, setHomeData] = useState<TypeHomeData>();
 
   useEffect(() => {
-    fetch("/data/contents.json")
+    fetch(import.meta.env.BASE_URL + "data/contents.json")
       .then(response => response.json())
       .then(fetchedData => setHomeData(fetchedData));
   }, []);

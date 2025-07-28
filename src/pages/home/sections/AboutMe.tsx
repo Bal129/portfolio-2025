@@ -5,15 +5,11 @@ function AboutMe({descriptions}: TypeAboutMe) {
   <>
   <div 
     className="row"
-    style={{ 
-      minHeight: "300px", 
-    }}
+    style={{ minHeight: "300px" }}
   >
     <div 
       className="col-md-6 col-lg-8"
-      style={{ 
-        zIndex: "10",
-      }}
+      style={{ zIndex: "10" }}
     >
       { descriptions.map((description, index) => (
         <div key={index}>

@@ -33,7 +33,7 @@
 }
 
 .c-about-me-img {
-  background-image: url("/img/photos/header.jpg");
+  background-image: url("img/photos/header.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

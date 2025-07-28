@@ -13,7 +13,7 @@ function Experience({current, previous}: TypeWorkExperience) {
           className="d-flex flex-column justify-content-center align-items-center m-2"
         >
           <img 
-            src={current.icon}
+            src={import.meta.env.BASE_URL + current.icon}
             className="border border-2 border-dark rounded-3 img-fluid"
           />
           <p className="c-text-1 text-center">{current.company}</p>

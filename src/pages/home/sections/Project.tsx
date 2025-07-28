@@ -17,7 +17,7 @@ function Project({projects}: PropsProject) {
             <div className="font-monospace card m-2 shadow">
               <div className="c-project-img">
                 <img 
-                  src={sample.picture}
+                  src={import.meta.env.BASE_URL + sample.picture}
                   className="card-img-top img-fluid"
                 />
               </div>
@@ -28,7 +28,7 @@ function Project({projects}: PropsProject) {
                   {sample.link && (
                     <a href={sample.link} target="_blank"  title={"Go to: " + sample.link}>
                       <img 
-                        src="/img/icons/github.png" 
+                        src={import.meta.env.BASE_URL + "img/icons/github.png"} 
                         style={{width: '30px', height: '30px'}}
                         className="c-container-light c-main-button rounded-pill"
                       />

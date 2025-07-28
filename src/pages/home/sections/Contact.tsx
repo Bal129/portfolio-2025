@@ -14,7 +14,7 @@ function Contact({contacts}:PropsContact) {
           <a href={contact.link} target="_blank" className="text-decoration-none">
             <div className="c-main-button c-container-light rounded-pill p-1">
               <img 
-                src={contact.platform.icon}
+                src={import.meta.env.BASE_URL + contact.platform.icon}
                 style={{width: "50px", height: "50px"}}
               />
             </div>

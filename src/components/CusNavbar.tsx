@@ -15,7 +15,7 @@ function CusNavbar() {
   const [navData, setNavData] = useState<NavbarItem>();
 
   useEffect(() => {
-    fetch("/data/contents.json")
+    fetch(import.meta.env.BASE_URL + "/data/contents.json")
       .then(response => response.json())
       .then(fetchedData => setNavData(fetchedData));
   }, []);

@@ -81,7 +81,7 @@ function AssistMenu() {
   }
   
   useEffect(() => {
-    fetch("/data/contents.json")
+    fetch(import.meta.env.BASE_URL + "/data/contents.json")
       .then(response => response.json())
       .then(fetchedData => setNavData(fetchedData.sections))
   }, []);
