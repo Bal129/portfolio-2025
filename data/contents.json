@@ -37,10 +37,10 @@
   ],
   "hero": {
     "parallax": {
-      "sky": "/img/parallax/sky.png",
-      "mountain": "/img/parallax/mountain.png",
-      "trees": "/img/parallax/trees.png",
-      "camp": "/img/parallax/land.png"
+      "sky": "img/parallax/sky.png",
+      "mountain": "img/parallax/mountain.png",
+      "trees": "img/parallax/trees.png",
+      "camp": "img/parallax/land.png"
     },
     "titles": [
       "Web Developer",
@@ -51,7 +51,7 @@
     ]
   }, 
   "aboutMe": {
-    "picture": "/img/photos/header.jpg",
+    "picture": "img/photos/header.jpg",
     "descriptions": [
       "Hi, my name is Iqbal.",
       "A Software Engineer Graduate Trainee at Iotra Digital Sdn Bhd, with hands-on experience in web development, game development, software engineering, PC building, and IT support.",
@@ -118,7 +118,7 @@
       "company": "Iotra Digital",
       "employment": "Graduate Trainee",
       "date": "May 2025 - Present",
-      "icon": "/img/icons/iotra.jpeg",
+      "icon": "img/icons/iotra.jpeg",
       "website": "https://iotra.com.my/"
     },
     "previous": [
@@ -164,7 +164,7 @@
             "Bootstrap"
           ],
           "description": "A simple Pokedex (an encyclopedia for the video game series Pokemon) to practice Vue router and fetching data from an open source RestfulAPI.",
-          "picture": "/img/samples/pokedex.png"
+          "picture": "img/samples/pokedex.png"
         },
         {
           "name": "Forecast Website",
@@ -178,7 +178,7 @@
             "Bootstrap"
           ],
           "description": "A website to display weather and waves forecast for surfing. I handled the front-end part only. The source code for this project is confidential.",
-          "picture": "/img/samples/forecast.png"
+          "picture": "img/samples/forecast.png"
         }
       ]
     },
@@ -198,7 +198,7 @@
             "SQL"
           ],
           "description": "A website created during my internship for the company's internal data entry system. I created the basic front-end and back-end for the website.",
-          "picture": "/img/samples/data.png"
+          "picture": "img/samples/data.png"
         }
       ]
     },
@@ -213,7 +213,7 @@
             "Go Language"
           ],
           "description": "A lightweight script to listen to webhooks from an IoT network server and another monitoring script that sends email if the listener failed.",
-          "picture": "/img/samples/listener.png"
+          "picture": "img/samples/listener.png"
         }
       ]
     },
@@ -229,7 +229,7 @@
             "C#"
           ],
           "description": "A 2d motion-controlled video game with for Noizucon 2024 convention booth. Players physically squat to move the character using.",
-          "picture": "/img/samples/nakfit.png"
+          "picture": "img/samples/nakfit.png"
         },
         {
           "name": "Blocks",
@@ -240,7 +240,7 @@
             "Blueprint"
           ],
           "description": "A 3d first-person video game with combination of action and puzzle elements. This project focuses on using Unreal Engine 5 and its physics engine.",
-          "picture": "/img/samples/blocks.png"
+          "picture": "img/samples/blocks.png"
         },
             {
           "name": "RPG Gyroscope",
@@ -251,7 +251,7 @@
             "C#"
           ],
           "description": "My Degree's Final Year Project. A 3d action adventure mobile video game that implements gyroscope inputs from a smartphone device.",
-          "picture": "/img/samples/gyroscope.png"
+          "picture": "img/samples/gyroscope.png"
         }
       ]
     },
@@ -266,7 +266,7 @@
             "Java"
           ],
           "description": "A simple menu system developed to practice Java Swing. This system allows users to browse the menu, add items to a cart, and simulate payments.",
-          "picture": "/img/samples/menu.png"
+          "picture": "img/samples/menu.png"
         },
         {
           "name": "Driving School System",
@@ -276,7 +276,7 @@
             "Java"
           ],
           "description": "A simulation platform where students and teachers can sign in to manage driving school related processes including setting up schedules.",
-          "picture": "/img/samples/school.png"
+          "picture": "img/samples/school.png"
         }
       ] 
     }
@@ -285,7 +285,7 @@
     {
       "platform": {
         "name": "Github",
-        "icon": "/img/icons/github.png"
+        "icon": "img/icons/github.png"
       },
       "username": "Bal129",
       "link": "https://github.com/Bal129"
@@ -293,7 +293,7 @@
     {
       "platform": {
         "name": "LinkedIn",
-        "icon": "/img/icons/linkedin.png"
+        "icon": "img/icons/linkedin.png"
       },
       "username": "Ahmad Iqbal Che Shamshudin",
       "link": "https://www.linkedin.com/in/ahmad-iqbal-che-shamshudin-4053b4249"
@@ -301,7 +301,7 @@
     {
       "platform": {
         "name": "Gmail",
-        "icon": "/img/icons/gmail.png"
+        "icon": "img/icons/gmail.png"
       },
       "username": "a.iqbalcs129@gmail.com",
       "link": "mailto:a.iqbalcs129@gmail.com"
