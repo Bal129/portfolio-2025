@@ -33,7 +33,7 @@
 }
 
 .c-about-me-img {
-  background-image: url("/portfolio-2025/img/photos/header.jpg");
+  background-image: var(--about-me-img);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

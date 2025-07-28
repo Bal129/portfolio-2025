@@ -8,13 +8,14 @@
   --text-body-1: #082649;
   --text-body-2: #e5f3f3;
   --text-accent: #a7c1df;
-  --landing-img-h: url("/portfolio-2025/img/landing-pic/nightsky-h.png");
-  --landing-img-v: url("/portfolio-2025/img/landing-pic/nightsky-v.png");
-  --landing-img-b: url("/portfolio-2025/img/landing-pic/nightsky-b.png");
-  --parallax-land-h: url("/portfolio-2025/img/parallax/nightsky-land-h.png");
-  --parallax-land-v: url("/portfolio-2025/img/parallax/nightsky-land-v.png");
-  --parallax-bg-h: url("/portfolio-2025/img/parallax/nightsky-bg-h.png");
-  --parallax-bg-v: url("/portfolio-2025/img/parallax/nightsky-bg-v.png");
+  --landing-img-h: url("var(--base-url)img/landing-pic/nightsky-h.png");
+  --landing-img-v: url("var(--base-url)img/landing-pic/nightsky-v.png");
+  --landing-img-b: url("var(--base-url)img/landing-pic/nightsky-b.png");
+  --parallax-land-h: url("var(--base-url)img/parallax/nightsky-land-h.png");
+  --parallax-land-v: url("var(--base-url)img/parallax/nightsky-land-v.png");
+  --parallax-bg-h: url("var(--base-url)img/parallax/nightsky-bg-h.png");
+  --parallax-bg-v: url("var(--base-url)img/parallax/nightsky-bg-v.png");
+  --about-me-img: url("var(--base-url)img/photos/header.jpg");
 }
 
 :root[data-theme="light"] {
@@ -27,9 +28,10 @@
   --text-body-1: #5a3b03;
   --text-body-2: #2e0601;
   --text-accent: #745604;
-  --landing-img-h: url("/portfolio-2025/img/landing-pic/daysky-h.png");
-  --landing-img-v: url("/portfolio-2025/img/landing-pic/daysky-v.png");
-  --landing-img-b: url("/portfolio-2025/img/landing-pic/daysky-b.png");
+  --landing-img-h: url("var(--base-url)img/landing-pic/daysky-h.png");
+  --landing-img-v: url("var(--base-url)img/landing-pic/daysky-v.png");
+  --landing-img-b: url("var(--base-url)img/landing-pic/daysky-b.png");
+  --about-me-img: url("var(--base-url)img/photos/header.jpg");
 }
 
 /* Theme 1 */

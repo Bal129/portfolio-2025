@@ -1,0 +1,7 @@
+.force-preserve {
+  background-image:
+    var(--landing-img-h),
+    var(--landing-img-v),
+    var(--landing-img-b),
+    var(--about-me-img);
+}
