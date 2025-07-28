@@ -22,8 +22,17 @@ function AboutMe({descriptions}: TypeAboutMe) {
       ))}
     </div>
 
-    <div 
-      className="col-md-6 col-lg-4 c-about-me-img shadow"
+    <div
+      className="col-md-6 col-lg-4 shadow"
+      style={{
+        backgroundImage: `url(${import.meta.env.BASE_URL + "img/photos/header.jpg"})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        minHeight: "300px",
+        transform: "translateX(-5rem)",
+        overflow: "visible",
+      }}  
     />
   </div>
   </>
